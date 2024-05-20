@@ -14,9 +14,11 @@
   padding: 0.1rem;
   position: relative;
 }
-.skill h2{
+
+.skill h2 {
   color: #959da6;
 }
+
 .skill:after {
   content: '';
   position: absolute;
@@ -37,7 +39,7 @@
 
 }
 
-.skbox{
+.skbox {
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -46,10 +48,12 @@
   color: #ddd;
   cursor: pointer;
 }
-.skbox:hover{
+
+.skbox:hover {
   width: 35px;
 }
-.skbox:hover .skimg{
+
+.skbox:hover .skimg {
   transform: translateY(-10px);
 }
 
@@ -83,7 +87,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.5s ;
+  transition: 0.5s;
 }
 
 .skicon {
@@ -13416,6 +13420,15 @@ textarea.form-control {
   /* Stretch the text by 1.2 times */
 }
 
+@media (max-width: 460px) {
+  .big-4 {
+    font-size: 33px;
+    margin: 0 auto;
+    transform: scaleX(1.2);
+
+  }
+}
+
 .heading-section {
   position: relative;
 }
@@ -13456,8 +13469,30 @@ textarea.form-control {
 @media (max-width: 767.98px) {
   .heading-section h2 {
     font-size: 38px;
+    /*text-align: center;
+    justify-content: center; */
   }
-}
+
+
+  .heading-section {
+    position: relative;
+    top: 15px;
+  }
+  /*.heading-section h1.big {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0
+    margin: auto;
+    font-size: 60px;
+    
+    color: rgba(255, 255, 255, 0.1);
+    z-index: -1;
+    font-weight: 900;
+  }*/
+  
+} 
+
 
 .heading-section.heading-section-white .subheading {
   color: rgba(255, 255, 255, 0.9) !important;
